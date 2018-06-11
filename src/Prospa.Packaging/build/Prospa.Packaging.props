@@ -1,0 +1,20 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <Authors Condition="'$(Authors)' == ''">Prospa Engineering</Authors>
+    <Company Condition="'$(Company)' == ''">Prospa Advance Pty Limited</Company>
+    <Copyright Condition="'$(Copyright)' == ''">© $([System.DateTime]::UtcNow.ToString(yyyy)) Prospa Advance Pty Limited. All rights reserved.</Copyright>
+    <PackageTags Condition="'$(PackageTags)' == ''">prospa</PackageTags>
+    <PackageIconUrl Condition="'$(PackageIconUrl)' == ''">https://raw.githubusercontent.com/prospa-group/DotnetPackaging/master/prospa60x60.png</PackageIconUrl>
+    <PackageOutputPath Condition="'$(PackageOutputPath)' == ''">..\..\.artifacts\packages</PackageOutputPath>
+    <GeneratePackageOnBuild Condition="'$(GeneratePackageOnBuild)' == ''">false</GeneratePackageOnBuild>
+    <GenerateDocumentationFile Condition="'$(GenerateDocumentationFile)' == ''">true</GenerateDocumentationFile>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateNeutralResourcesLanguageAttribute>false</GenerateNeutralResourcesLanguageAttribute>
+    <NoWarn>$(NoWarn);</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <LangVersion>latest</LangVersion>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>

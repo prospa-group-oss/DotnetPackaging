@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Prospa.Packaging.props" />
+</Project>

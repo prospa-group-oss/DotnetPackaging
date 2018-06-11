@@ -1,0 +1,10 @@
+<Project>
+	<Import Project="..\version.props" />
+
+  <PropertyGroup>
+		<PackageProjectUrl>https://github.com/prospa-group/DotnetPackaging</PackageProjectUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>git@github.com:prospa-group/DotnetPackaging.git</RepositoryUrl> 
+	</PropertyGroup>  
+  
+</Project>

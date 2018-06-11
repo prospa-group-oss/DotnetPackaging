@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\build\common.props" />
+
+  <PropertyGroup>
+    <TargetFrameworks>net452;netstandard2.0</TargetFrameworks>
+    <Description>NuGet packaging for Prospa</Description>
+    <PackageProjectUrl>https://github.com/prospa-group/DotnetPackaging</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Prospa Engineering</Authors>
+    <Company>Prospa Advance Pty Limited</Company>
+    <Copyright>© $([System.DateTime]::UtcNow.ToString(yyyy)) Prospa Advance Pty Limited. All rights reserved.</Copyright>
+    <PackageTags>prospa</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/prospa-group/DotnetPackaging/master/prospa60x60.png</PackageIconUrl>
+    <VersionSuffix></VersionSuffix>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="build*\*" />
+    <Content Include="build\*" PackagePath="build" />
+    <Content Include="buildMultiTargeting\*" PackagePath="buildMultiTargeting" />
+  </ItemGroup>
+
+</Project>
