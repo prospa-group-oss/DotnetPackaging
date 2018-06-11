@@ -13,7 +13,7 @@
     <Company>Prospa Advance Pty Limited</Company>
     <Copyright>© $([System.DateTime]::UtcNow.ToString(yyyy)) Prospa Advance Pty Limited. All rights reserved.</Copyright>
     <PackageTags>prospa</PackageTags>
-    <PackageIconUrl>https://raw.githubusercontent.com/prospa-group/DotnetPackaging/master/prospa60x60.png</PackageIconUrl>
+    <PackageIconUrl>https://github.com/prospa-group/DotnetPackaging/blob/master/prospa60x60.png</PackageIconUrl>
     <VersionSuffix></VersionSuffix>
   </PropertyGroup>
 
