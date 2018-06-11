@@ -1,4 +1,4 @@
-# <img src="https://github.com/prospa-group/DotnetPackaging/blob/master/prospa60x60.png" alt="Prospa Engineering" width="50px"/> Prospa DotNet Packaging 
+# <img src="https://raw.githubusercontent.com/prospa-group/DotnetPackaging/master/prospa60x60.png" alt="Prospa Engineering" width="50px"/> Prospa DotNet Packaging 
 
 
 ## Usage
